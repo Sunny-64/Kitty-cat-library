@@ -95,7 +95,7 @@ body {
 
 #home::before {
     content: "";
-    background: url("/css/images/flowers-5606108_1920.png") no-repeat center center/cover;
+    background: url("css/images/flowers-5606108_1920.png") no-repeat center center/cover;
     /* background: url("/css/images/cat-2011427.jpg") no-repeat center center/cover; */
     /* background: url("/css/images/javier-zhang-3Qd9TmytcCg-unsplash.jpg") no-repeat center center/cover; */
     position: absolute;
@@ -240,7 +240,7 @@ hr {
     content: "";
     position: absolute;
     background-color: #afacab;
-    background: url('/css/images/flowers-5606108_1920.png');
+    background: url('css/images/flowers-5606108_1920.png');
     height: 100%;
     width: 100%;
     z-index: -1;
