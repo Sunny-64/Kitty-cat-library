@@ -1,0 +1,304 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* color: white; */
+    /* looks good if i adjust few more things  */
+}
+
+body {
+    /* background: url("/css/images/javier-zhang-3Qd9TmytcCg-unsplash.jpg") no-repeat center center/cover; */
+    /* background: url("/css/images/flowers-5606108_1920.png") no-repeat center center/cover; */
+    /* background: url("/css/images/cat-2011427.jpg") no-repeat center center/cover; */
+}
+
+
+/* Navigation Bar */
+
+#navbar {
+    display: flex;
+    /* margin: 3px 3px; */
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    /* justify-content: center; */
+    /* background-color: black; */
+}
+
+#navbar::before {
+    content: "";
+    /* color: white; */
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+
+/* Images and logos */
+
+.image {
+    margin: 0px 10px;
+    /* width: 50px; */
+}
+
+.image img {
+    width: 50px;
+    margin: 3px 6px;
+}
+
+
+/* ul , lists*/
+
+.navigation {
+    display: flex;
+}
+
+.navigation li {
+    list-style: none;
+    justify-items: center;
+    font-size: 1rem;
+    /* margin: 0px 3px; */
+    padding: 0px 22px;
+}
+
+.navigation li a {
+    color: white;
+    /* color: black; */
+    /* padding: 0px 22px; */
+    text-decoration: none;
+    font-family: 'Roboto Serif', sans-serif;
+}
+
+.navigation li a:hover {
+    color: black;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+
+/* Home */
+
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 0px;
+    height: 282px;
+    align-items: center;
+    justify-content: center;
+    top: 0px;
+}
+
+#home::before {
+    content: "";
+    background: url("/css/images/flowers-5606108_1920.png") no-repeat center center/cover;
+    /* background: url("/css/images/cat-2011427.jpg") no-repeat center center/cover; */
+    /* background: url("/css/images/javier-zhang-3Qd9TmytcCg-unsplash.jpg") no-repeat center center/cover; */
+    position: absolute;
+    /* height at 100% is causing a lot of problems so i fixed the size */
+    /* height: 371px;*/
+    height: 1238px;
+    width: 100%;
+    /* image is getting stretchted according to the screen height with top and left positioning */
+    top: 0px;
+    left: 0px;
+    /* after inserting the size is still not fixed maybe i should hardcode the size (not sure though) */
+    z-index: -1;
+    opacity: 0.79;
+}
+
+.h-primary {
+    color: #000000;
+    font-size: 2.3rem;
+    padding: 3px 12px;
+    font-family: 'Roboto Serif', sans-serif;
+}
+
+#home p {
+    font-size: 1.1rem;
+    font-family: 'Roboto Serif', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+
+/* .btn {
+    margin: 12px 3px;
+    padding: 3px 12px;
+     background-color: grey; 
+} */
+
+hr {
+    width: 600px;
+    margin: auto;
+    background-color: black;
+}
+
+
+/* Service Section */
+
+#services {
+    display: flex;
+}
+
+.services-item {
+    margin: 56px 23px;
+    border: 2px solid black;
+    border-radius: 14px;
+    background-color: #989b9ea1;
+    padding: 8px 2px;
+}
+
+.services-item img {
+    height: 80px;
+    display: block;
+    margin: auto;
+}
+
+.h-secondary {
+    color: black;
+    text-align: center;
+    font-size: 2.0rem;
+    /* font-family: 'Roboto Serif', sans-serif; */
+}
+
+.services-item p {
+    text-align: center;
+    font-size: 1.1rem;
+    /* font-family: 'Roboto Serif', sans-serif; */
+}
+
+
+/* About Section */
+
+#about {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2px;
+    margin-bottom: -4px;
+}
+
+#about h1 {
+    font-size: 2.3rem;
+    text-align: center;
+    font-family: 'Roboto Serif', sans-serif;
+    margin: 14px;
+}
+
+.library-features {
+    background-color: #918d8cba;
+    border: 2px solid black;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 6px 15px;
+}
+
+.library-features p {
+    font-size: 1.0rem;
+    font-family: 'Roboto Serif', sans-serif;
+}
+
+.features {
+    margin: 2px 0px;
+    padding: 5px 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* .features-h {
+    width: 200px;
+} */
+
+#about img {
+    width: 100px;
+    padding: 0px 45px;
+}
+
+
+/* #membership h2 {
+    width: 204px;
+} */
+
+
+/* contact us */
+
+#contact {
+    display: flex;
+    /* margin: 12px 2px; */
+    flex-direction: column;
+    position: relative;
+}
+
+#contact::before {
+    content: "";
+    position: absolute;
+    background-color: #afacab;
+    background: url('/css/images/flowers-5606108_1920.png');
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+#contact h1 {
+    display: block;
+    text-align: center;
+    font-family: 'Roboto Serif', sans-serif;
+    font-size: 2.3rem;
+    padding: 30px 2px;
+    margin-top: 32px;
+}
+
+#contact-box {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+
+.Registeration-form {
+    padding: 15px 2px;
+}
+
+.Registeration-form label {
+    font-size: 1rem;
+    font-family: 'Roboto Serif', sans-serif;
+    padding: 0px 8px;
+}
+
+.Registeration-form #name-label {
+    padding: 0px 10px;
+}
+
+.Registeration-form input,
+button {
+    border: 2px solid white;
+    padding: 10px 203px;
+    border-radius: 14px;
+    /* background-color: #97b1bc21; */
+    /* thought of making it transparent but i guess it didn't look any good  */
+}
+
+.form-btn {
+    margin: 27px 118px;
+}
+
+.form-btn:hover {
+    background-color: #00000075;
+    color: white;
+}
+
+
+/* footer */
+
+footer {
+    background-color: #cce2ecb3;
+    text-align: center;
+}

@@ -1,0 +1,158 @@
+/* Now this will be one of the biggest thing to deal with */
+
+
+/* Navigation Bar*/
+
+#navbar {
+    flex-direction: column;
+}
+
+.navigation {
+    padding-bottom: 2px;
+}
+
+.image img {
+    width: 38px;
+}
+
+.navigation li {
+    list-style: none;
+    justify-items: center;
+    font-size: 1rem;
+    /* margin: 0px 3px; */
+    padding: 0px 6px;
+}
+
+
+/* Home  */
+
+.h-primary {
+    color: #000000;
+    font-size: 1.9rem;
+    padding: 3px 0px;
+    font-family: 'Roboto Serif', sans-serif;
+    text-align: center;
+}
+
+#home p {
+    font-size: 0.9rem;
+    font-family: 'Roboto Serif', sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+hr {
+    width: 100px;
+    margin: auto;
+    background-color: black;
+}
+
+
+/* services */
+
+#services {
+    flex-direction: column;
+}
+
+.services-item {
+    margin: 40px 1px;
+    border: 2px solid black;
+    border-radius: 14px;
+    background-color: #989b9ea1;
+    padding: 8px 4px;
+}
+
+.services-item img {
+    height: 64px;
+    display: block;
+    margin: auto;
+}
+
+.h-secondary {
+    color: black;
+    text-align: center;
+    /* font-family: 'Roboto Serif', sans-serif; */
+}
+
+.services-item p {
+    text-align: center;
+    /* font-family: 'Roboto Serif', sans-serif; */
+}
+
+
+/* about */
+
+.library-features {
+    background-color: #918d8cba;
+    border: 2px solid black;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 6px 0px;
+}
+
+#about h1 {
+    font-size: 2.3rem;
+    text-align: center;
+    font-family: 'Roboto Serif', sans-serif;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    margin: auto;
+}
+
+.features {
+    margin: 2px 0px;
+    padding: 5px 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* .features-h {
+    
+}
+
+#membership h2 {
+    
+} */
+
+#about img {
+    width: 58px;
+    padding: 0px 30px;
+}
+
+
+/* contact */
+
+.Registeration-form {
+    padding: 15px 0px;
+}
+
+.Registeration-form #name-label {
+    padding: 0px 0px;
+}
+
+.Registeration-form label {
+    font-size: 1rem;
+    font-family: 'Roboto Serif', sans-serif;
+    padding: 0px 0px;
+}
+
+.Registeration-form input,
+button {
+    border: 2px solid white;
+    padding: 10px 0px;
+    border-radius: 14px;
+    /* background-color: #97b1bc21; */
+}
+
+.form-btn {
+    width: 38%;
+    margin-left: 0;
+    margin-right: 0px;
+    /*display: block; */
+    /* margin-top: 27px;
+    margin-left: ; */
+}
